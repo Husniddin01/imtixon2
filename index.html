@@ -9,7 +9,6 @@
     
 </head>
 <body>
-    <!-- header -->
     <header class="header">
         <div class="container">
             <div class="header__container">
@@ -116,7 +115,41 @@
                         </div>
                     </div>
                     
-                    
+                    <div class="riding__center riding__line">
+                        <picture class="riding__picture">
+                            <source
+                            type="image/webp"
+                            media="(max-width: 1200px)"
+                            srcset="
+                            ./images/girl.webp 1x,
+                            ./images/girl@2x.webp 2x
+                            "                        
+                            >
+                            
+                            <source
+                            type="image/avif"
+                            media="(max-width: 1000px)"
+                            srcset="
+                            ./images/girl.avif 1x,
+                            ./images/girl@2x.avif 2x
+                            "
+                            >
+                            
+                            <source
+                            media="(max-width: 750px)"
+                            srcset="
+                            ./images/girl.png 1x,
+                            ./images/girl@2x.png 2x
+                            "
+                            >
+                            
+                            <img  class="riding__img" src="./images/girl.jpg" 
+                            srcset="./images/girl.jpg 1x, ./images/girl@2x.jpg 2x"                            
+                            alt="girl"
+                           
+                            >
+                        </picture>
+                    </div>
                     
               
                 </div>
@@ -127,13 +160,17 @@
                 <div class="city__main">
                     <div class="city__top">
                         <div class="city__left-top">
-                            <img src="./img/city.avif" srcset="./img/city.avif 1x, ./img/city@2x.avif 2x" alt="city" class="city__img-top" width="445" height="445">
+                            <img src="./images/city.avif" srcset="./images/city.avif 1x, ./images/city@2x.avif 2x" alt="city" class="city__img-top" width="445" height="445">
                         </div>
                         
                         <div class="city__right-top">
                             <h2 class="city__heading-top">Coming to a city near you</h2>
                             <p class="city__text-top">Scoot is available in 4 major cities so far. We’re expanding rapidly, so be sure to let us know if you want to see us in your hometown. We’re aiming to let our scooters loose on 23 cities over the coming year.</p>
-                            <a href="#" class="btn city__btn-top">Learn More</a>
+                            <div class="button">
+                                <a class="button__link" href="#" >
+                                    Learn More
+                                </a>
+                            </div>
                         </div>
                     </div>
                     
@@ -141,17 +178,25 @@
                         <div class="city__left-bottom">
                             <h2 class="city__heading-bottom">Zero hassle payments</h2>
                             <p class="city__text-bottom">Our payment is as easy as one two three. We accept most credit cards and debit cards. You can also link your PayPal account inside the app. Need to pay later? No worries! You can defer payment for up to a month.</p>
-                            <a href="#" class="btn city__btn-bottom">Learn More</a>
+                            <div class="button">
+                                <a class="button__link city__button" href="#" >
+                                    Learn More
+                                </a>
+                            </div>
                         </div>
                         
                         <div class="city__right-bottom">
-                            <img src="./img/men.avif" srcset="./img/men.avif 1x, ./img/men@2x.avif 2x" alt="men" class="city__img-bottom"  width="445" height="445">
+                            <img src="./images/men.avif" srcset="./images/men.avif 1x, ./images/men@2x.avif 2x" alt="men" class="city__img-bottom"  width="445" height="445">
                         </div>
                         
                         <div class="city__center-bottom">
                             <h2 class="city__heading-center">Zero hassle payments</h2>
                             <p class="city__text-center">Our payment is as easy as one two three. We accept most credit cards and debit cards. You can also link your PayPal account inside the app. Need to pay later? No worries! You can defer payment for up to a month.</p>
-                            <a href="#" class="btn city__btn-center">Learn More</a>
+                            <div class="button">
+                                <a class="button__link city__button" href="#" >
+                                    Learn More
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
