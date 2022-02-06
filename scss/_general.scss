@@ -1,4 +1,4 @@
-body{
+html{
     height: 100%;
 }
 
@@ -9,9 +9,11 @@ body{
 body{
     margin: 0;
     padding: 0;
+    margin-top: 22px;
     height: 100%;
     display: flex;
     flex-direction: column;
+    font-family: 'Space Mono';
 }
 
 main{
@@ -31,6 +33,7 @@ a{
 }
 
 p{
+    font-family: 'Lexend Deca' ; 
     margin: 0;
 }
 img{
@@ -46,4 +49,26 @@ img{
     padding: 0;
     clip: rect(0 0 0 0);
     margin: -1px;
+}
+.button{
+    &__link{
+        display: inline-block;
+        padding: 14px 39px;
+        background-color:#FCB72B;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #FFFFFF;
+        &:hover{
+            background-color: transparent;
+            border: 3px solid #FCB72B;
+            color: #FCB72B;
+        }
+        &:active{
+            opacity: 0.5;
+        }
+    }
+    
 }
