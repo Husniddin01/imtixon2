@@ -1614,9 +1614,6 @@ img {
     margin-right: 0%;
     margin-left: 32px;
   }
-  .city__left-top::before {
-    display: none;
-  }
   .city__img-top {
     margin-right: 0%;
     margin-left: 0%;
@@ -1649,9 +1646,6 @@ img {
     display: block;
     margin-left: 32px;
     margin-top: 120px;
-  }
-  .city__right-bottom::before {
-    display: none;
   }
   .city__img-bottom {
     margin-left: 0%;
