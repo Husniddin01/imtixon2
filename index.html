@@ -67,42 +67,132 @@
                 </div>
             </div>
         </section>
-    </main>
-    <section id="service">
-        <div class="service__container">
-            <div class="service__main">
-                <ul class="service__list">
-                    <li class="service__item-app">
-                        <div class="service__road-app">
-                            <span class="service__line-app"></span>
-                            <span class="service__img-app"></span>
-                        </div>
-                        <h4 class="service__heading-app">Location with App</h4>
-                        <p class="service__text-app">Use the app to find the nearest scooter to you. We are continuously placing scooters in the areas with most demand, so one should never be too far away. </p>
-                    </li>
-                    
-                    <li class="service__item-scoot">
-                        <div class="service__road-scoot">
-                            <span class="service__line-scoot"></span>
-                            <span class="service__img-scoot"></span>
-                        </div>
-                        <h4 class="service__heading-scoot">Pick your scooter</h4>
-                        <p class="service__text-scoot">We show the most important info for the scooters closest to you. So you know how much charge they have left and can see roughly how much it will cost.</p>
-                    </li>
-                    
-                    <li class="service__item-ride">
-                        <div class="service__road-ride">
-                            <span class="service__line-ride"></span>
-                            <span class="service__img-ride"></span>
-                        </div>
-                        <h4 class="service__heading-ride">Enjoy your ride</h4>
-                        <p class="service__text-ride">Scan the QR code and the bike will unlock. Retract the cable lock, put on a helmet, and you’re off! Always lock bikes away from walkways and accessibility ramps.</p>
-                    </li>
-                </ul>
+        <section class="service">
+            <div class="service__container">
+                <div class="service__wrapper">
+                    <h2 class="visually-hidden">service</h2>
+                    <ul class="service__list">
+                        <li class="service__item-app">
+                            <div class="service__road-app">
+                                <span class="service__line-app"></span>
+                                <span class="service__img-app"></span>
+                            </div>
+                            <h3 class="service__heading-app">Location with App</h3>
+                            <p class="service__text-app">Use the app to find the nearest scooter to you. We are continuously placing scooters in the areas with most demand, so one should never be too far away. </p>
+                        </li>
+                        
+                        <li class="service__item-scoot">
+                            <div class="service__road-scoot">
+                                <span class="service__line-scoot"></span>
+                                <span class="service__img-scoot"></span>
+                            </div>
+                            <h3 class="service__heading-scoot">Pick your scooter</h3>
+                            <p class="service__text-scoot">We show the most important info for the scooters closest to you. So you know how much charge they have left and can see roughly how much it will cost.</p>
+                        </li>
+                        
+                        <li class="service__item-ride">
+                            <div class="service__road-ride">
+                                <span class="service__line-ride"></span>
+                                <span class="service__img-ride"></span>
+                            </div>
+                            <h3 class="service__heading-ride">Enjoy your ride</h3>
+                            <p class="service__text-ride">Scan the QR code and the bike will unlock. Retract the cable lock, put on a helmet, and you're off! Always lock bikes away from walkways and accessibility ramps.</p>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </section> 
-    
+        </section> 
+        <section class="riding">
+            <div class="riding__container">
+                <div class="riding__wrapper">
+                    <div class="riding__left">
+                        <h2 class="riding__heading-left">Easy to use riding telemetry</h2>
+                        <p class="riding__text-left">The Scoot app is available with riding telemetry. This means it can show you your average speed, how long you've been using the scooter, your traveling distance, and many more things all in an easy to use app.</p>
+                        <div class="button">
+                            <a class="button__link" href="#" >
+                                Learn More
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="riding__center riding__line">
+                        <picture class="riding__picture">
+                            <source
+                            type="image/webp"
+                            media="(max-width: 1200px)"
+                            srcset="
+                            ./images/girl.webp 1x,
+                            ./images/girl@2x.webp 2x
+                            "                        
+                            >
+                            
+                            <source
+                            type="image/avif"
+                            media="(max-width: 1000px)"
+                            srcset="
+                            ./images/girl.avif 1x,
+                            ./images/girl@2x.avif 2x
+                            "
+                            >
+                            
+                            <source
+                            media="(max-width: 750px)"
+                            srcset="
+                            ./images/girl.png 1x,
+                            ./images/girl@2x.png 2x
+                            "
+                            >
+                            
+                            <img  class="riding__img" src="./images/girl.jpg" 
+                            srcset="./images/girl.jpg 1x, ./images/girl@2x.jpg 2x"                            
+                            alt="girl"
+                           
+                            >
+                        </picture>
+                    </div>
+                    
+              
+                </div>
+            </div>
+        </section>
+        <section class="city">
+            <div class="city__container">
+                <div class="city__main">
+                    <div class="city__top">
+                        <div class="city__left-top">
+                            <img src="./img/city.avif" srcset="./img/city.avif 1x, ./img/city@2x.avif 2x" alt="city" class="city__img-top" width="445" height="445">
+                        </div>
+                        
+                        <div class="city__right-top">
+                            <h2 class="city__heading-top">Coming to a city near you</h2>
+                            <p class="city__text-top">Scoot is available in 4 major cities so far. We’re expanding rapidly, so be sure to let us know if you want to see us in your hometown. We’re aiming to let our scooters loose on 23 cities over the coming year.</p>
+                            <a href="#" class="btn city__btn-top">Learn More</a>
+                        </div>
+                    </div>
+                    
+                    <div class="city__bottom">
+                        <div class="city__left-bottom">
+                            <h2 class="city__heading-bottom">Zero hassle payments</h2>
+                            <p class="city__text-bottom">Our payment is as easy as one two three. We accept most credit cards and debit cards. You can also link your PayPal account inside the app. Need to pay later? No worries! You can defer payment for up to a month.</p>
+                            <a href="#" class="btn city__btn-bottom">Learn More</a>
+                        </div>
+                        
+                        <div class="city__right-bottom">
+                            <img src="./img/men.avif" srcset="./img/men.avif 1x, ./img/men@2x.avif 2x" alt="men" class="city__img-bottom"  width="445" height="445">
+                        </div>
+                        
+                        <div class="city__center-bottom">
+                            <h2 class="city__heading-center">Zero hassle payments</h2>
+                            <p class="city__text-center">Our payment is as easy as one two three. We accept most credit cards and debit cards. You can also link your PayPal account inside the app. Need to pay later? No worries! You can defer payment for up to a month.</p>
+                            <a href="#" class="btn city__btn-center">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+    </main>
     <footer class="footer">
         <div class="container">
             <div class="footer__container">

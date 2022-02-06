@@ -1,4 +1,10 @@
 .header {
+    box-shadow: 0 1px 7px rgb(216, 216, 216);
+    padding: 22px 0;
+    position: fixed;
+    width: 100vw;
+    z-index: 999;
+    background-color:#FFFFFF;
     
     &__container {
         display: flex;
